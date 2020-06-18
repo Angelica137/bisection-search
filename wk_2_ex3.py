@@ -23,8 +23,6 @@ while value != "c":
         y = ans
         ans = guess(x, y)
         value = userInput(input)
-    elif value == "c":
-        break
     else:
-        print(input("error, please enter h, l, or c.\n"))
-
+        print("error, please enter h, l, or c.\n")
+        value = userInput(input)
