@@ -26,3 +26,5 @@ while value != "c":
     else:
         print("error, please enter h, l, or c.\n")
         value = userInput(input)
+
+print("Game over. Your secret number was: " + str(ans))
