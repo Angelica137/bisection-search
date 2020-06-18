@@ -8,7 +8,7 @@ def guess(x, y):
 
 
 def userInput(input):
-    return input("Is your secret number " + str(ans) + "?\nEnter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed correctly. \n")
+    return input("Is your secret number " + str(ans) + "?\nEnter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed correctly. ")
 
 
 ans = guess(x, y)
